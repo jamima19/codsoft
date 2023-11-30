@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body {
+    background: lightgrey;
+    color: white;
+}
+#header{
+    width: 100%;
+height: 100vh;
+background-image: url(background.jpg);
+background-size: cover;
+background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+nav h2 {
+    font-size: 40px ;
+    font-weight:500 ;
+}
+nav h2 span {
+color: purple;
+}
+nav ul li {
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: purple;
+    font-size: 18px;
+    
+}
+nav ul li a:hover {
+color: black;
+font-size: 20px;
+font-weight: 300;
+}
+.butt{
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+}
+.butt:hover{
+    background-color: white;
+    color: purple;
+    font-size: 20px;
+    font-weight: 300;
+}
+.header-text {
+    margin-top: 13%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.header-text h1 span {
+    color: purple;
+}
+#about{
+    padding: 80px 0;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.imge{
+    width: 100%;
+
+}
+.about-col-2{
+flex-basis: 60%;
+}
+.sub-title{
+font-size:60px ;
+font-weight: 600;
+}
+.tab-titles{
+    display: flex;
+    margin: 15px 0 25px;
+    color: purple;
+}
+.tab-links{
+    margin-right: 20px;
+    font-size:25px;
+    font-weight: 400;
+}
+.tab-content ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.tab-content  ul li span {
+    color: purple;
+}
+.headers {
+    text-align: center;
+    color: white;
+}
+.headers  h1{
+font-size: 60px;
+font-weight: 600;
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+align-items: center;
+grid-gap: 1rem;
+font-size: 1.3rem;
+padding: 1rem 80px;
+}
+.skill-box{
+    border: 1px solid white;
+border-radius: 15px;
+padding: 20px;
+}
+
+.skill-title{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem;
+margin-bottom: 0.5erem;
+}
+.skill-title h3{
+color: purple;
+margin: 0.5rem;
+font-size: 25px;
+font-weight: 400;
+}
+.imgs {
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-icon{
+    width:60px ;
+    height: 60px;
+border-radius: 50%;
+    background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.skill-box:hover{
+transform: translateY(-10px);
+translate: 0.5s;
+}
+.prohead {
+    text-align: center;
+    color: white;
+}
+.prohead  h1{
+font-size: 60px;
+font-weight: 600;
+}
+.props{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem 80px;
+}
+.probox{
+border: 1px solid white;
+width: 250px;
+height: 400px;
+}
+.project-tit{
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+margin-bottom: 0.5erem;
+}
+.imgg{
+    width: 250px;
+    height: 150px;
+}
+.toapp{
+    width: 250px;
+    height: 150px;
+}
+.project-tit h3 {
+    color: purple;
+text-align: center;
+}
+.probox p{
+padding: 5px;
+
+}
+.but{
+    margin: 10px;
+    margin-bottom: 10px;
+background-color: purple;
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
+margin-left: 50px;
+}
+
+.sub-tile{
+font-size: 50px;
+
+}
+.contact-left {
+    flex-basis: 35%;
+}
+.contact-left p {
+margin-top: 30px;
+}
+.contact-left p i {
+    color: purple;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+text-decoration: none;
+font-size: 30px;
+margin-right: 15px;
+color: purple;
+display: inline-block;
+}
+.social-icons a:hover{
+color: black;
+transform: translateY(-5px);
+translate: 0.5s;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-right form{
+width: 100%;
+}
+form input, form textarea{
+    width:100%;
+    border: none;
+outline: none;
+background: white;
+padding: 15px;
+margin: 15px 0;
+color: black;
+font-size: 18px;
+border-radius: 6px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+background-color: white;
+color: purple;
+font-size: 25px;
+margin-top: 10px;
+padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
